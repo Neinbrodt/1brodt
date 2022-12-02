@@ -8,36 +8,32 @@
 		--web-view-ids: index;
 	}
 	* {
-		margin: 0;
-		padding: 0;
 		box-sizing: border-box;
 		border: none;
 	}
 	@font-face {
-		font-family: "Moon Get";
-		src: url("../src/fonts/moon_get.ttf");
+		font-family: "Moon Get", "JetBrains Mono";
+		src: url("../src/fonts/moon_get.ttf"), url("../src/fonts/JetbrainsMono-Regular.woff2");
 	}
-	#Main {
+	#index {
 		position: absolute;
 		width: 1920px;
 		height: 1080px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
-		--web-view-name: Web 1920 – 1;
-		--web-view-id: Web_1920__1;
+		--web-view-name: index;
+		--web-view-id: index;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
 	#BG_gradient {
-		fill: url(#Rectangle_2_h);
+		fill: url(#BG_gradient)
 	}
 	.BG_gradient {
 		position: absolute;
 		overflow: visible;
 		width: 1920px;
 		height: 1080px;
-		left: 1px;
-		top: 0px;
 	}
 	#Headings {
 		position: absolute;
@@ -48,8 +44,6 @@
 		overflow: visible;
 	}
 	#DESIGN {
-		left: 0px;
-		top: 0px;
 		position: absolute;
 		overflow: visible;
 		width: 675px;
@@ -64,7 +58,6 @@
 	}
 	#CODING {
 		left: 967px;
-		top: 0px;
 		position: absolute;
 		overflow: visible;
 		width: 676px;
@@ -92,7 +85,6 @@
 		overflow: visible;
 		width: 811px;
 		height: 499px;
-		left: 0px;
 		top: 3px;
 	}
 	#Terminal_header {
@@ -103,8 +95,6 @@
 		position: absolute;
 		width: 810.942px;
 		height: 103.473px;
-		left: 0px;
-		top: 0px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#Terminal {
@@ -180,8 +170,6 @@
 		overflow: visible;
 		width: 1920px;
 		height: 111px;
-		left: 0px;
-		top: 0px;
 	}
 	#Einbrodt {
 		left: 141px;
