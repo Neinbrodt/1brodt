@@ -28,10 +28,10 @@
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
-	#Rectangle_2_h {
+	#BG_gradient {
 		fill: url(#Rectangle_2_h);
 	}
-	.Rectangle_2_h {
+	.BG_gradient {
 		position: absolute;
 		overflow: visible;
 		width: 1920px;
@@ -39,7 +39,7 @@
 		left: 1px;
 		top: 0px;
 	}
-	#Group_2 {
+	#Headings {
 		position: absolute;
 		width: 1642px;
 		height: 137px;
@@ -76,42 +76,7 @@
 		font-size: 131px;
 		color: rgba(255,255,255,1);
 	}
-	#Group_1 {
-		position: absolute;
-		width: 536px;
-		height: 79px;
-		left: 1244px;
-		top: 61px;
-		display: none;
-		overflow: visible;
-	}
-	#Rectangle_1 {
-		filter: blur(23px);
-		fill: rgba(255,255,255,1);
-	}
-	.Rectangle_1 {
-		position: absolute;
-		overflow: visible;
-		width: 536px;
-		height: 79px;
-		left: 0px;
-		top: 0px;
-	}
-	#Lets_work_together_ {
-		left: 43px;
-		top: 14px;
-		position: absolute;
-		overflow: visible;
-		width: 450px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Walkway;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 48px;
-		color: rgba(0,0,0,1);
-	}
-	#Group_3 {
+	#Terminal_div {
 		position: absolute;
 		width: 811px;
 		height: 502px;
@@ -119,10 +84,10 @@
 		top: 428px;
 		overflow: visible;
 	}
-	#Rectangle_3 {
+	#Terminal_rect {
 		fill: rgba(0,0,0,1);
 	}
-	.Rectangle_3 {
+	.Terminal_rect {
 		position: absolute;
 		overflow: visible;
 		width: 811px;
@@ -130,10 +95,10 @@
 		left: 0px;
 		top: 3px;
 	}
-	#Path_1 {
+	#Terminal_header {
 		fill: rgba(96,96,96,1);
 	}
-	.Path_1 {
+	.Terminal_header {
 		overflow: visible;
 		position: absolute;
 		width: 810.942px;
@@ -156,7 +121,7 @@
 		font-size: 61px;
 		color: rgba(255,255,255,1);
 	}
-	#Something_will__appear_soon {
+	#Soon-text {
 		left: 114px;
 		top: 173px;
 		position: absolute;
@@ -170,7 +135,7 @@
 		font-size: 58px;
 		color: rgba(255,255,255,1);
 	}
-	#Text {
+	#Command_arrow {
 		left: 42px;
 		top: 173px;
 		position: absolute;
@@ -184,7 +149,7 @@
 		font-size: 60px;
 		color: rgba(255,255,255,1);
 	}
-	#to_be_recreated_in_3D {
+	#3D_text {
 		left: 212px;
 		top: 436px;
 		position: absolute;
@@ -207,22 +172,10 @@
 		overflow: visible;
 		transform: rotate(-27deg);
 	}
-	#Path_2 {
-		fill: transparent;
-	}
-	.Path_2 {
-		overflow: visible;
-		position: absolute;
-		width: 1285.491px;
-		height: 1310.839px;
-		left: -210.024px;
-		top: -115.875px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Rectangle_5 {
+	#Header {
 		fill: rgba(10,24,51,1);
 	}
-	.Rectangle_5 {
+	.Header {
 		position: absolute;
 		overflow: visible;
 		width: 1920px;
