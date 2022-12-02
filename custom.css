@@ -14,8 +14,12 @@
 		padding: 0;
 	}
 	@font-face {
-		font-family: "Moon Get", "JetBrains Mono";
-		src: url("../src/fonts/moon_get.ttf"), url("../src/fonts/JetbrainsMono-Regular.woff2");
+		font-family: "Moon Get";
+		src: url("../src/fonts/moon_get.ttf");
+	}
+	@font-face {
+		font-family: "JetBrains Mono";
+		src: url("../src/fonts/JetbrainsMono-Regular.woff2");
 	}
 	#index {
 		position: absolute;
