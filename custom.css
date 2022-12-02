@@ -17,7 +17,7 @@
 		font-family: "Moon Get";
 		src: url("../src/fonts/moon_get.ttf");
 	}
-	#index {
+	#Main {
 		position: absolute;
 		width: 1920px;
 		height: 1080px;
