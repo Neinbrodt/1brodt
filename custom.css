@@ -19,7 +19,7 @@
 	}
 	@font-face {
 		font-family: "JetBrains Mono";
-		src: url("../src/fonts/JetbrainsMono-Regular.woff2");
+		src: url("../src/fonts/JetBrainsMono-Regular.woff2");
 	}
 	#index {
 		position: absolute;
